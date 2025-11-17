@@ -1184,7 +1184,7 @@
                             </tr>
                             <tr>
                                 <td><strong>Copilot</strong></td>
-                                <td>Microsof</td>
+                                <td>Microsoft</td>
                                 <td>Melhoria da produtividade geral no trabalho</td>
                                 <td><a href="https://copilot.microsoft.com/" target="_blank">https://copilot.microsoft.com/</a></td>
                             </tr>
@@ -2789,7 +2789,7 @@
 
             <!-- SEÇÃO FAQ -->
             <section id="material">
-                <h2>1. Repositório de Materiais</h2> <h3>
+                <h2>1. Repositório:</h2> <h3>
             
                 <div class="card">    
                     <ul>
@@ -2797,8 +2797,87 @@
                         <li>✴️ <a href="https://bit.ly/ia-tre-prompts" target="_blank">Prompts</a></li>
                         <li>✴️ <a href="https://bit.ly/ia-tre-material" target="_blank">Material de apoio</a></li>
                     </ul>
-                    
-                </div>    
+                </div>   
+
+                <h2>2. Customizações Importantes no ChatGPT:</h2> 
+                <h3>✴️ Personalização</h3>
+                <div class="card">    
+                    <p>Acesse o menu Configurações -> Personalização e defina os parâmetros abaixo para customizar a forma como o modelo irá interagir com você:</p>
+                    <div class="success">
+                        <strong>a) Estilo e tom básicos:</strong> Escolha uma das opções abaixo (eu escolhi "Padrão"):                    
+                        <ul>
+                            <li><strong>Padrão</strong>: Estilo e tons equilibrados.</li>
+                            <li><strong>Profissional</strong>: Preciso e refinado</li>
+                            <li><strong>Amigável</strong>: Acolhedor e falante</li>
+                            <li><strong>Franco</strong>: Direto e encorajador</li>
+                            <li><strong>Diferentão</strong>: Divertido e criativo</li>
+                            <li><strong>Eficiente</strong>: Conciso e simples</li>
+                            <li><strong>Nerd</strong>: Exploratório e empolgado</li>
+                            <li><strong>Cínico</strong>: Crítico e sarcástico</li>
+                        </ul>
+                    </div>
+
+                    <div class="success">
+                        <strong>b) Instruções personalizadas:</strong> Detalhe o que você quer que o modelo leve em consideração quando for interagir com você. Use o modelo abaixo como exemplo (copie e adapte para a sua realidade):      
+
+                        <div class="good-example example-box">
+                            <div style="font-family: 'Courier New', monospace; background: white; padding: 20px; border-radius: 5px; margin-top: 10px; border: 1px solid #ddd;">
+                                - Responda com sinceridade, usando, quando couber, um toque de ironia inteligente, como um amigo experiente.<br>
+                                - Gere respostas elaboradas, ricas em detalhes e com exemplos práticos, fazendo conexões criativas entre ideias.<br>
+                                - Me chame de Osmar e manifeste sua opinião sempre que achar que pode contribuir com a conversa.<br>
+                                - Seja encorajador, mas sem dizer apenas o que acha que quero ouvir; traga o que preciso ouvir. Critique-me quando achar necessário. <br>
+                                - Responda apenas quando tiver certeza. Se houver incerteza, explique-a. <br>
+                                - Apresente seu raciocínio de forma clara e detalhada, citando fontes sempre que possível. Se não houver fontes, informe. <br>
+                                - Priorize clareza e objetividade, usando humor rápido e sagaz quando apropriado. <br>
+                                - Não use o travessão ("—") para explicações. <br>
+                                - Use um tom encorajador.
+                            </div>
+                            <button class="nav-btn" onclick="copyTemplate(this)" style="margin-top: 15px; background: linear-gradient(135deg, #4caf50, #45a049);">📋 Copiar Instruções personalizadas
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="success">
+                        <strong>c) Apelido:</strong> Informe como gostaria que o modelo se refira a você. No meu caso o valor deste campo é apenas "Osmar".     
+                    </div>
+
+                    <div class="success">
+                        <strong>d) Ocupação:</strong> Escreva um pouco sobre as suas atividades profissionais. Use o modelo abaixo como exemplo (copie e adapte para a sua realidade):       
+
+                        <div class="good-example example-box">
+                            <div style="font-family: 'Courier New', monospace; background: white; padding: 20px; border-radius: 5px; margin-top: 10px; border: 1px solid #ddd;">
+                                - Sou servidor público federal, trabalho no Tribunal Regional Eleitoral do RN (TRE-RN)<br>
+                                - Ingressei em 1996 no cargo de Técnico Judiciário (especialidade Programador de Sistemas), permanecendo até 2006, quanto tomeu posse no cargo de Analista Judiciário (especialidade Análise de Sistemas).<br>
+                                - Desde 2014, exerço o cargo de Coordenador de Sistemas Corporativos (COSIS) na Secretaria de Tecnologia da Informação e Eleições (STIE) do TRE-RN, atuando junto à equipes de desenvolvimento, novas tecnologias e banco de dados. <br> 
+                                - Fui professor na Universidade Potiguar (UnP) por 13 anos.<br> 
+                                - Na UnP também atuei como Diretor Adjunto do curso de bacharelado em Sistemas de Informação.<br>
+                            </div>
+                            <button class="nav-btn" onclick="copyTemplate(this)" style="margin-top: 15px; background: linear-gradient(135deg, #4caf50, #45a049);">📋 Copiar Ocupação
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="success">
+                        <strong>e) Mais sobre você:</strong> Escreva um pouco sobre você. Use o modelo abaixo como exemplo (copie e adapte para a sua realidade):       
+
+                        <div class="good-example example-box">
+                            <div style="font-family: 'Courier New', monospace; background: white; padding: 20px; border-radius: 5px; margin-top: 10px; border: 1px solid #ddd;">
+                                - Possuo Mestrado em Sistemas e Computação (UFRN, 2004) e duas especializações: Gestão do Poder Judiciário, e Tecnologia da Informação.<br>
+                                - Tenho interesse em Inteligência Artificial e Gestão de Tecnologia.<br>
+                                - Minhas demandas exigem profundidade, contexto e praticidade. <br>
+                                - Prefiro conversas construtivas que equilibrem técnica, clareza e criatividade, evitando respostas rasas ou genéricas.
+                            </div>
+                            <button class="nav-btn" onclick="copyTemplate(this)" style="margin-top: 15px; background: linear-gradient(135deg, #4caf50, #45a049);">📋 Copiar Mais sobre você
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>✴️ Controlar dados</h3>
+                <div class="card">    
+                    <p>Desative a opção "Melhorar o modelo para todo mundo" para evitar que as suas interações com o ChatGPT sejam usadas para treinar os modelos.</p>
+                </div>
+
             </section>
         </div>
     </div>
@@ -2961,7 +3040,30 @@
             
             // Toggle do card clicado
             card.classList.toggle('open');
-        }        
+        }    
+
+        // Função para copiar templates
+        function copyTemplate(button) {
+            const templateDiv = button.previousElementSibling;
+            const template = templateDiv.textContent.trim();
+            
+            navigator.clipboard.writeText(template).then(() => {
+                const originalText = button.innerHTML;
+                const originalBg = button.style.background;
+                
+                button.innerHTML = '✅ Copiado!';
+                button.style.background = '#4caf50';
+                button.style.color = 'white';
+                
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.style.background = originalBg;
+                }, 2000);
+            }).catch(err => {
+                alert('Erro ao copiar. Por favor, selecione e copie manualmente.');
+                console.error('Erro ao copiar:', err);
+            });
+        }    
     </script>
 </body>
 </html>
